@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+  {% block body_block %}
+    <h1>WELCOME TO INDEX</h1>
+    <h2>This id index.html showing</h2>
+    <!-- <h1>{{ text|upper }}</h1> -->
+    <!-- used filter upper and add and all these filters are bulit in -->
+    <h1>{{ text|cut:'Hello'}}</h1>
+    <h1>{{ number|add:"99" }}</h1>
+    {% endblock %}
